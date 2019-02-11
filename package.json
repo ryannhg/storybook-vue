@@ -1,0 +1,27 @@
+{
+  "name": "@ryannhg/fed",
+  "version": "1.0.0",
+  "description": "Storybook for templates!",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/ryannhg/storybook-demo.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Ryan Haskell-Glatz",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "7.2.2",
+    "@storybook/addon-centered": "5.0.0-beta.2",
+    "@storybook/addon-knobs": "5.0.0-beta.2",
+    "@storybook/addon-notes": "5.0.0-beta.2",
+    "@storybook/vue": "5.0.0-beta.2",
+    "babel-loader": "8.0.5",
+    "babel-preset-vue": "2.0.2",
+    "vue": "2.6.5",
+    "vue-loader": "15.6.2",
+    "vue-template-compiler": "2.6.5"
+  }
+}

@@ -1,0 +1,17 @@
+version: '3'
+services:
+  storybook:
+    build: .
+    environment:
+      HOST: '0.0.0.0'
+      CHOKIDAR_USEPOLLING: 'true'
+    volumes:
+      - ./.storybook:/usr/src/app/.storybook
+      - ./components:/usr/src/app/components
+      - ./layouts:/usr/src/app/layouts
+      - ./pages:/usr/src/app/pages
+      - ./static:/usr/src/app/static
+      - ./index.js:/usr/src/app/index.js
+      - ./package.json:/usr/src/app/package.json
+    ports:
+      - 3000:3000

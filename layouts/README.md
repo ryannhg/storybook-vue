@@ -1,0 +1,2 @@
+# Layouts
+> Invisible UI structures.
