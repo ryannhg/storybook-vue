@@ -1,5 +1,5 @@
 <template>
-  <button class="button" @click="gotoHero()">
+  <button class="button">
     {{label}}
   </button>
 </template>
